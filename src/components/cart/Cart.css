@@ -1,0 +1,20 @@
+.cart {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    padding: 2rem;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 100vh;
+    overflow-y: scroll;
+    gap: 2rem;
+}
+
+.cart_item {
+    padding: 0.3rem;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 30% 30% 40%;
+    box-shadow: rgba(17, 17, 219, 0.2) 0px 7px 29px 8px;
+}
